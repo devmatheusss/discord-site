@@ -199,9 +199,39 @@ body{
         text-align: center;
     }
 
+    .conteudo-principal-imagem{
+        margin-left: 0;
+    }
+
     .rodape{
         flex-direction: column;
         height: 100px;
+    }
+}
+
+@media (max-width: 382px){
+    .conteudo-secundario-titulo{
+        text-align: center;
+    }
+}
+
+@media (max-width: 350px){
+    .conteudo-principal-imagem{
+        height: 180px;
+    }
+}
+
+@media (max-width: 300px){
+    .conteudo-principal-imagem{
+        height: 150px;
+    }
+
+    .rodape{
+        height: 50px;
+    }
+
+    .rodape-texto{
+        font-size: 8pt;
     }
 }
 
