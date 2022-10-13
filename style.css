@@ -165,9 +165,12 @@ body{
     .conteudo-principal{
         flex-direction: column;
     }
-}
 
-@media (max-width: 600px){
+    .conteudo-principal-escrito{
+        align-items: center;
+        text-align: center;
+    }
+
     .rodape{
         flex-direction: column;
     }
